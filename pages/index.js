@@ -115,7 +115,7 @@ class Home extends Component {
             </div>
             <button
               type='submit'
-              className='px-8 h-9 mx-auto block rounded-md font-bold text-white text-lg bg-purple-400'
+              className='px-8 h-9 mx-auto block focus:outline-none rounded-md font-bold text-white text-lg bg-purple-400'
             >
               {loading ? (
                 <i className='fa fa-lg fa-circle-o-notch fa-spin text-white'></i>
