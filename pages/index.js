@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import getWeb3 from '../web3';
 import 'font-awesome/css/font-awesome.min.css';
 import ErrorMessage from '../components/ErrorMessage';
+import { SocialIcon } from 'react-social-icons';
 
 class Home extends Component {
   networks = ['Mainnet', 'Ropsten', 'Kovan', 'Goerli', 'Rinkeby'];
@@ -136,6 +137,20 @@ class Home extends Component {
             <span className='text-white text-xl font-bold'>Number: </span>
             <span className='text-yellow-400'>{number}</span>
           </div>
+        </div>
+        <div className='flex flex-row justify-center gap-x-5 mt-40'>
+          <SocialIcon url='https://twitter.com/realdiganta' fgColor='white' />
+          <SocialIcon
+            url='https://github.com/realdiganta'
+            fgColor='white'
+            bgColor='black'
+          />
+          <SocialIcon url='https://mail.google.com/mail/u/?authuser=digantakalita.ai@gmail.com' />
+        </div>
+        <div className='text-white text-sm px-20 mt-4 text-center'>
+          Created with Love by @realdiganta. <br></br> If this was of help to
+          you, I am gladly accepting donations at
+          0xaf73867B57900b148Cfdc947bB1af9498cfb5488
         </div>
       </div>
     );
