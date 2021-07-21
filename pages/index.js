@@ -147,7 +147,7 @@ class Home extends Component {
           />
           <SocialIcon url='https://mail.google.com/mail/u/?authuser=digantakalita.ai@gmail.com' />
         </div>
-        <div className='text-white text-sm px-20 mt-4 text-center'>
+        <div className='text-white text-sm md:px-20 px-4 mt-4 text-center break-words'>
           Created with Love by @realdiganta. <br></br> If this was of help to
           you, I am gladly accepting donations at
           0xaf73867B57900b148Cfdc947bB1af9498cfb5488
