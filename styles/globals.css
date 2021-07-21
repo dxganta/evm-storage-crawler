@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .label-primary {
+    @apply text-white
+  }
+  .input-primary {
+    @apply outline-none px-2 md:w-2/3 w-80 ml-4 rounded
+  }
+}
+
 html,
 body {
   padding: 0;
