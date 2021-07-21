@@ -95,7 +95,7 @@ class Home extends Component {
               <label className='label-primary'>Contract address</label>
               <input
                 placeholder='0xDBF774a7a9461449D033Fa0da8E0a72B46EE6381'
-                className='input-primary'
+                className='input-primary break-words'
                 value={contract}
                 onChange={(event) => {
                   this.setState({ contract: event.target.value });
